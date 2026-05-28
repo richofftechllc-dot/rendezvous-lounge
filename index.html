@@ -227,9 +227,9 @@ footer{background:var(--black);border-top:1px solid var(--border);padding:3.5rem
 <!-- HERO -->
 <section id="hero">
   <div class="hero-bg"></div>
-  <!-- HERO MEDIA SLOT — Claude Code: drop interior/crowd shot or IG scroll gif here -->
+  <!-- HERO MEDIA — animated IG flyer scroll -->
   <div class="hero-media" id="heroMedia">
-    <!-- <img src="assets/media/rendezvous-interior.jpg" alt="Rendezvous Lounge interior"> -->
+    <img src="assets/media/rendezvous-ig-scroll.gif" alt="Rendezvous Lounge event flyers">
   </div>
   <div class="hero-overlay"></div>
   <div class="wrap hero-content">
@@ -324,12 +324,12 @@ footer{background:var(--black);border-top:1px solid var(--border);padding:3.5rem
       <div><p class="eyebrow">What's Coming Up</p><h2 class="s-title">Upcoming <em>Events</em></h2></div>
       <a href="https://www.instagram.com/rendezvous_lounge_/" target="_blank" rel="noopener" class="btn btn-ghost">All Events on IG ↗</a>
     </div>
-    <!-- FLYER GRID — Claude Code: each .flyer takes an event flyer img. Remove the .flyer-ph when adding img -->
-    <div class="flyer-grid reveal">
-      <div class="flyer"><div class="flyer-overlay"></div><div class="flyer-ph"><div class="flyer-label">Friday Private Behavior</div><div class="flyer-sub">Weekly · Fri 9PM</div></div></div>
-      <div class="flyer"><div class="flyer-overlay"></div><div class="flyer-ph"><div class="flyer-label">Saturday High Frequency</div><div class="flyer-sub">Weekly · Sat 9PM</div></div></div>
-      <div class="flyer"><div class="flyer-overlay"></div><div class="flyer-ph"><div class="flyer-label">Holly Sins Sunday</div><div class="flyer-sub">Weekly · Sun 6PM</div></div></div>
-      <div class="flyer"><div class="flyer-overlay"></div><div class="flyer-ph"><div class="flyer-label">Lipstick & Liquor</div><div class="flyer-sub">Thursdays · 8PM</div></div></div>
+    <!-- FLYER SHOWCASE — animated IG flyer scroll (clean individual tiles TBD from IG saves) -->
+    <div class="reveal" style="border-radius:3px;overflow:hidden;border:1px solid var(--border);position:relative;">
+      <img src="assets/media/rendezvous-ig-scroll.gif" alt="Rendezvous Lounge weekly event flyers" style="width:100%;display:block;">
+      <a href="https://www.instagram.com/rendezvous_lounge_/" target="_blank" rel="noopener" style="position:absolute;inset:0;display:flex;align-items:flex-end;justify-content:center;padding:2rem;background:linear-gradient(0deg,rgba(5,5,7,.85) 0%,transparent 45%);text-decoration:none;">
+        <span class="btn btn-gold">See All Events on Instagram ↗</span>
+      </a>
     </div>
     <p style="text-align:center;font-size:.76rem;color:var(--dim);margin-top:1.5rem;font-style:italic;font-family:var(--ff-serif);">Special events: Halloween, Howard Homecoming, live music & more — check the feed.</p>
   </div>
